@@ -1,0 +1,16 @@
+ name = "payroll-test-cluster"
+ project_id = "vibrant-mantis-296207"
+ path = "C:/Terraform/Terraform-projects/credentials"
+ region = "europe-west2"
+ zones = ["europe-west2-a","europe-west2-b","europe-west2-c"]
+ network = "default"
+ subnetwork = "default"
+ min_count = "1"
+ max_count = "3"
+ machine_type = "n1-standard-2"
+ node_locations = "europe-west2"
+ disk_size_gb = "10"
+ service_account = "terraform@vibrant-mantis-296207.iam.gserviceaccount.com"
+ initial_node_count = "2"
+
+
